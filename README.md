@@ -38,4 +38,6 @@ Another example curl command to get the points for that receipt:
 
 This repo contains several example .json receipts for use.
 
-When running the executable natively, you can also pass a .json file with receipt info as an argument, and the executable will just process the json and spit out the point value instead of running as a webservice.
+When running the executable natively, you can also pass a .json file with receipt info as an argument, and the executable will just process the json and spit out the point value instead of running as a webservice. That'll look like this:
+
+``` fetch-rewards-processor morning-receipt.json ```
